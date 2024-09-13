@@ -2,10 +2,10 @@
 
 Este repositório tem como foco a criação de uma carteira para Bitcoin, nele são criados as chaves públicas e privadas, assim como o mnemonico
 
-1. No VS Code é necessário instalar o bip39, bip32 e o bitcoinjs-lib
+## 1. No VS Code é necessário instalar o bip39, bip32 e o bitcoinjs-lib
    ``` npm i bip39 bip32@2.0.6 bitcoinjs-lib ```
 
-2. 
+## 2. 
 
 ```
 //Bibliotecas
@@ -41,13 +41,13 @@ console.log("Chave privada:", node.toWIF())
 console.log("Minhas palavras:", mnemonic)
 ```
 
-3. Após o comando ``` node .\createWallet.js ``` , teremos o resultado
+## 3. Após o comando ``` node .\createWallet.js ``` , teremos o resultado
 
 ![image](https://github.com/user-attachments/assets/c6d2ae66-0aec-4df2-bff8-53d13d41adf5)
 
 
 
-4. Para completar, é necessário um gerenciador de carteiras
+## 4. Para completar, é necessário um gerenciador de carteiras
    
 ![Captura de tela 2024-09-13 140717](https://github.com/user-attachments/assets/a808f733-358e-4504-bcbb-2c41ed688121)
 
@@ -65,7 +65,7 @@ console.log("Minhas palavras:", mnemonic)
 
 ![Captura de tela 2024-09-13 142255](https://github.com/user-attachments/assets/a11427bc-cfaf-45e0-9978-ab9f439b5a3a)
 
-5. Como teste, enviei Bitcoin Faucet na testnet
+## 5. Como teste, enviei Bitcoin Faucet na testnet
    
 ![Captura de tela 2024-09-13 142413](https://github.com/user-attachments/assets/3ce9419a-f70e-46b3-9bda-c3e5f4ee7617)
 
@@ -74,15 +74,15 @@ console.log("Minhas palavras:", mnemonic)
 ![Captura de tela 2024-09-13 142749](https://github.com/user-attachments/assets/3982b5e2-b8db-4d42-b21b-458f54c85689)
 
 
-Observações:
+## Observações:
 Para a utilização da carteira na rede principal do Bitcoin, é preciso algumas alterações simples no código
 
-1. 
+## 1. 
 ```
 const network = bitcoin.networks.bitcoin (Essa será a Mainnet)
 ```
 
-2.
+## 2.
 ```
 //const path = `m/49'/1'/0'/0` (Essa será na Mainnet)
 ```

@@ -76,6 +76,7 @@ console.log("Minhas palavras:", mnemonic)
 
 Observações:
 Para a utilização da carteira na rede principal do Bitcoin, é preciso algumas alterações simples no código
+
 1. 
 ```
 const network = bitcoin.networks.bitcoin (Essa será a Mainnet)
